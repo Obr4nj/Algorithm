@@ -1,3 +1,4 @@
+/** Created by @author Obr4nj on 12/28/20. **/
 #include <bits/stdc++.h>
 using namespace std;
 #define oo 100005
@@ -10,7 +11,7 @@ using namespace std;
  * 
  * ------------------------------ Example ------------------------------
  * Input:
- * 		n = 5
+ * 		n = 3
  * 		V = 30
  * 		a[] = {25, 10, 5}
  * 
@@ -50,7 +51,6 @@ int main() {
 			}
 		}
 	}
-
 	cout << dp[V] << endl;
 	return 0;
 }
